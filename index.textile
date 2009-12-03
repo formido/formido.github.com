@@ -1,5 +1,5 @@
 ---
-title: How To: Create a Button in Cappuccino
+title: How to Create a Button in Cappuccino
 layout: wikistyle
 ---
 
