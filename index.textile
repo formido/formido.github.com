@@ -3,9 +3,10 @@ title: How to Create a Button in Cappuccino
 layout: wikistyle
 ---
 
-h2.How to Create a Button in Cappuccino
+h2. How to Create a Button in Cappuccino
 
-h3.Here is the code
+h3. Here is the code
+
 {% highlight js %}
 @import <Foundation/CPObject.j>
 
