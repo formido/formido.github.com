@@ -1,5 +1,6 @@
 ---
-layout: default
+title: How To: Create a Button in Cappuccino
+layout: wikistyle
 ---
 
 {% highlight js %}
