@@ -12,10 +12,12 @@ layout: wikistyle
 
 - (void)applicationDidFinishLaunching:(CPNotification)aNotification
 {
-    var theWindow = [[CPWindow alloc] initWithContentRect:CGRectMakeZero() styleMask:CPBorderlessBridgeWindowMask],
+    var theWindow = [[CPWindow alloc] initWithContentRect:CGRectMakeZero() 
+    		    	       	      styleMask:CPBorderlessBridgeWindowMask],
         contentView = [theWindow contentView];
 
-    var button = [[CPButton alloc] initWithFrame: CGRectMake( CGRectGetWidth([contentView bounds])/2.0 - 40, 80, 80, 24 )]; 
+    var button = [[CPButton alloc] 
+    	initWithFrame: CGRectMake( CGRectGetWidth([contentView bounds])/2.0 - 40, 80, 80, 24 )]; 
     [button setAutoresizingMask:CPViewMinXMargin | CPViewMaxXMargin | CPViewMinYMargin | CPViewMaxYMargin]; 
     
     [button setTitle:"Alert"]; 
@@ -26,9 +28,6 @@ layout: wikistyle
     [contentView addSubview:button]; 
     
     [theWindow orderFront:self];
-
-    // Uncomment the following line to turn on the standard menu bar.
-    //[CPMenu setMenuBarVisible:YES];
 }
 
 - (void)showDialog:(id)sender 
