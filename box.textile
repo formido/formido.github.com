@@ -1,3 +1,13 @@
+---
+title: How to Create a Box in Cappuccino
+layout: wikistyle
+---
+
+h2. How to Create a Box in Cappuccino
+
+h3. Here is the code
+
+{% highlight js %}
 @import <Foundation/CPObject.j>
 
 
@@ -22,3 +32,8 @@
 }
 
 @end
+{% endhighlight %}
+
+h3. And here's what it looks like when rendered
+
+!images/box.png!
